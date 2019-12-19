@@ -35,6 +35,22 @@ public class EffectDraSystem : MonoBehaviour, IDragHandler, IBeginDragHandler, I
             newPosition.y = Input.mousePosition.y;
             gameObject.transform.position = newPosition;
         }
+        else if(Input.mousePosition.y >= yBoundingTransform.yMax &&
+            Input.mousePosition.y <= Screen.height - yBoundingTransform.yMax &&
+            (Input.mousePosition.x < xBoundingTransform.xMax ||
+            Input.mousePosition.x > Screen.width - xBoundingTransform.xMax))
+        {
+            newPosition.y = Input.mousePosition.y;
+            gameObject.transform.position = newPosition;
+        }
+        else if(Input.mousePosition.x >= xBoundingTransform.xMax &&
+            Input.mousePosition.x <= Screen.width - xBoundingTransform.xMax &&
+            (Input.mousePosition.y < yBoundingTransform.yMax ||
+            Input.mousePosition.y > Screen.height - yBoundingTransform.yMax))
+        {
+            newPosition.x = Input.mousePosition.x;
+            gameObject.transform.position = newPosition;
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
