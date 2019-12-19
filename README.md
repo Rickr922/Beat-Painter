@@ -11,4 +11,4 @@ A paper with more details can be found in the `report` directory.
 This application is organised as a Unity Project. Run Unity Hub and add the folder `BeatPainter` as a new project.
 For using the application, print the images located in the `imagetargets` folder and keep them in front of of the webcam one at a time while the project is running
 
-Inside `AudioPluginPlugins` directory it is located the XCode project relative to the audio effects that are used in the application. These effects were implemented using Unity's [Native Audio Plugin SDK](https://docs.unity3d.com/Manual/AudioMixerNativeAudioPlugin.html).
+Inside `AudioPluginCustomPlugins` directory it is located the XCode project relative to the audio effects that are used in the application. These effects were implemented using Unity's [Native Audio Plugin SDK](https://docs.unity3d.com/Manual/AudioMixerNativeAudioPlugin.html).
