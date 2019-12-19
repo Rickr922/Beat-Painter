@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Mixer_jpg" size="5.000000 3.064286" />
+    <ImageTarget name="Synthvuforia" size="5.000000 3.463572" />
+    <ImageTarget name="Drum" size="5.000000 3.750000" />
+    <ImageTarget name="Saxophone" size="5.000000 3.869229" />
+    <ImageTarget name="Bass" size="5.000000 6.666667" />
+  </Tracking>
+</QCARConfig>

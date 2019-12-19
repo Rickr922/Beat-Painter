@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - 1_Drum
+  - 2_Drum
+  - 1_Bass
+  - 2_Bass
+  - 0_Drum
+  - 3_Drum
+  - 0_Bass
+  - 3_Bass
+  - 0_Synth
+  - 1_Synth
+  - 2_Synth
+  - 3_Synth
+  - 0_Brass
+  - 1_Brass
+  - 2_Brass
+  - 3_Brass
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

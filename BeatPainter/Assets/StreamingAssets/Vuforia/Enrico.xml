@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="FinalClue" size="50.000000 39.399624" />
+    <ImageTarget name="Cat3" size="50.000000 42.040817" />
+    <ImageTarget name="Cat2" size="50.000000 64.974617" />
+    <ImageTarget name="Cat1" size="50.000000 67.616577" />
+    <ImageTarget name="Dragon" size="5.000000 6.916667" />
+  </Tracking>
+</QCARConfig>
