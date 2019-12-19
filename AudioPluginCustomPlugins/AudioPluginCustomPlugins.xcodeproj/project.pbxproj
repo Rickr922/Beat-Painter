@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67E90DEA2396CE030037C19F /* Plugin_CustomFlanger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE02396CE020037C19F /* Plugin_CustomFlanger.cpp */; };
+		67E90DEB2396CE030037C19F /* Plugin_CustomDelay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE12396CE020037C19F /* Plugin_CustomDelay.cpp */; };
+		67E90DEC2396CE030037C19F /* AudioPluginUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE32396CE020037C19F /* AudioPluginUtil.cpp */; };
+		67E90DED2396CE030037C19F /* Plugin_CustomHPF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE42396CE020037C19F /* Plugin_CustomHPF.cpp */; };
+		67E90DEE2396CE030037C19F /* Plugin_CustomLPF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE52396CE020037C19F /* Plugin_CustomLPF.cpp */; };
+		67E90DEF2396CE030037C19F /* Plugin_CustomMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE62396CE030037C19F /* Plugin_CustomMixer.cpp */; };
+		67E90DF02396CE030037C19F /* Plugin_CustomRingMod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E90DE72396CE030037C19F /* Plugin_CustomRingMod.cpp */; };
+		67E90E132396D4490037C19F /* AudioPluginCustomPluginsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E90E122396D4490037C19F /* AudioPluginCustomPluginsLibrary.m */; };
+		67E90E142396D4490037C19F /* AudioPluginCustomPluginsLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67E90E112396D4490037C19F /* AudioPluginCustomPluginsLibrary.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67E90E0D2396D4490037C19F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				67E90E142396D4490037C19F /* AudioPluginCustomPluginsLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67E90DD72396CDC60037C19F /* AudioPluginCustomPlugins.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPluginCustomPlugins.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E90DDA2396CDC60037C19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E90DE02396CE020037C19F /* Plugin_CustomFlanger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin_CustomFlanger.cpp; sourceTree = "<group>"; };
+		67E90DE12396CE020037C19F /* Plugin_CustomDelay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin_CustomDelay.cpp; sourceTree = "<group>"; };
+		67E90DE22396CE020037C19F /* AudioPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPluginInterface.h; sourceTree = "<group>"; };
+		67E90DE32396CE020037C19F /* AudioPluginUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioPluginUtil.cpp; sourceTree = "<group>"; };
+		67E90DE42396CE020037C19F /* Plugin_CustomHPF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin_CustomHPF.cpp; sourceTree = "<group>"; };
+		67E90DE52396CE020037C19F /* Plugin_CustomLPF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin_CustomLPF.cpp; sourceTree = "<group>"; };
+		67E90DE62396CE030037C19F /* Plugin_CustomMixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin_CustomMixer.cpp; sourceTree = "<group>"; };
+		67E90DE72396CE030037C19F /* Plugin_CustomRingMod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin_CustomRingMod.cpp; sourceTree = "<group>"; };
+		67E90DE82396CE030037C19F /* AudioPluginUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPluginUtil.h; sourceTree = "<group>"; };
+		67E90DE92396CE030037C19F /* PluginList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginList.h; sourceTree = "<group>"; };
+		67E90E0F2396D4490037C19F /* libAudioPluginCustomPluginsLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAudioPluginCustomPluginsLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E90E112396D4490037C19F /* AudioPluginCustomPluginsLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPluginCustomPluginsLibrary.h; sourceTree = "<group>"; };
+		67E90E122396D4490037C19F /* AudioPluginCustomPluginsLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPluginCustomPluginsLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E90DD42396CDC60037C19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E90E0C2396D4490037C19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E90DCE2396CDC60037C19F = {
+			isa = PBXGroup;
+			children = (
+				67E90DD92396CDC60037C19F /* AudioPluginCustomPlugins */,
+				67E90E102396D4490037C19F /* AudioPluginCustomPluginsLibrary */,
+				67E90DD82396CDC60037C19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67E90DD82396CDC60037C19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E90DD72396CDC60037C19F /* AudioPluginCustomPlugins.bundle */,
+				67E90E0F2396D4490037C19F /* libAudioPluginCustomPluginsLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E90DD92396CDC60037C19F /* AudioPluginCustomPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				67E90DE22396CE020037C19F /* AudioPluginInterface.h */,
+				67E90DE32396CE020037C19F /* AudioPluginUtil.cpp */,
+				67E90DE82396CE030037C19F /* AudioPluginUtil.h */,
+				67E90DE12396CE020037C19F /* Plugin_CustomDelay.cpp */,
+				67E90DE02396CE020037C19F /* Plugin_CustomFlanger.cpp */,
+				67E90DE42396CE020037C19F /* Plugin_CustomHPF.cpp */,
+				67E90DE52396CE020037C19F /* Plugin_CustomLPF.cpp */,
+				67E90DE62396CE030037C19F /* Plugin_CustomMixer.cpp */,
+				67E90DE72396CE030037C19F /* Plugin_CustomRingMod.cpp */,
+				67E90DE92396CE030037C19F /* PluginList.h */,
+				67E90DDA2396CDC60037C19F /* Info.plist */,
+			);
+			path = AudioPluginCustomPlugins;
+			sourceTree = "<group>";
+		};
+		67E90E102396D4490037C19F /* AudioPluginCustomPluginsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				67E90E112396D4490037C19F /* AudioPluginCustomPluginsLibrary.h */,
+				67E90E122396D4490037C19F /* AudioPluginCustomPluginsLibrary.m */,
+			);
+			path = AudioPluginCustomPluginsLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E90DD62396CDC60037C19F /* AudioPluginCustomPlugins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E90DDD2396CDC60037C19F /* Build configuration list for PBXNativeTarget "AudioPluginCustomPlugins" */;
+			buildPhases = (
+				67E90DD32396CDC60037C19F /* Sources */,
+				67E90DD42396CDC60037C19F /* Frameworks */,
+				67E90DD52396CDC60037C19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPluginCustomPlugins;
+			productName = AudioPluginCustomPlugins;
+			productReference = 67E90DD72396CDC60037C19F /* AudioPluginCustomPlugins.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		67E90E0E2396D4490037C19F /* AudioPluginCustomPluginsLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E90E152396D4490037C19F /* Build configuration list for PBXNativeTarget "AudioPluginCustomPluginsLibrary" */;
+			buildPhases = (
+				67E90E0B2396D4490037C19F /* Sources */,
+				67E90E0C2396D4490037C19F /* Frameworks */,
+				67E90E0D2396D4490037C19F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPluginCustomPluginsLibrary;
+			productName = AudioPluginCustomPluginsLibrary;
+			productReference = 67E90E0F2396D4490037C19F /* libAudioPluginCustomPluginsLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E90DCF2396CDC60037C19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OC;
+				TargetAttributes = {
+					67E90DD62396CDC60037C19F = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					67E90E0E2396D4490037C19F = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 67E90DD22396CDC60037C19F /* Build configuration list for PBXProject "AudioPluginCustomPlugins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67E90DCE2396CDC60037C19F;
+			productRefGroup = 67E90DD82396CDC60037C19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E90DD62396CDC60037C19F /* AudioPluginCustomPlugins */,
+				67E90E0E2396D4490037C19F /* AudioPluginCustomPluginsLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E90DD52396CDC60037C19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E90DD32396CDC60037C19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E90DED2396CE030037C19F /* Plugin_CustomHPF.cpp in Sources */,
+				67E90DEA2396CE030037C19F /* Plugin_CustomFlanger.cpp in Sources */,
+				67E90DEB2396CE030037C19F /* Plugin_CustomDelay.cpp in Sources */,
+				67E90DEF2396CE030037C19F /* Plugin_CustomMixer.cpp in Sources */,
+				67E90DEC2396CE030037C19F /* AudioPluginUtil.cpp in Sources */,
+				67E90DEE2396CE030037C19F /* Plugin_CustomLPF.cpp in Sources */,
+				67E90DF02396CE030037C19F /* Plugin_CustomRingMod.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E90E0B2396D4490037C19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E90E132396D4490037C19F /* AudioPluginCustomPluginsLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67E90DDB2396CDC60037C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67E90DDC2396CDC60037C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		67E90DDE2396CDC60037C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(PROJECT_DIR)/Builds";
+				INFOPLIST_FILE = AudioPluginCustomPlugins/Info.plist;
+				INSTALL_PATH = /Bundles;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.AudioPluginCustomPlugins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		67E90DDF2396CDC60037C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(PROJECT_DIR)/Builds";
+				INFOPLIST_FILE = AudioPluginCustomPlugins/Info.plist;
+				INSTALL_PATH = /Bundles;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oc.AudioPluginCustomPlugins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		67E90E162396D4490037C19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(PROJECT_DIR)/Builds";
+				INSTALL_PATH = /Lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64 arm64e";
+			};
+			name = Debug;
+		};
+		67E90E172396D4490037C19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(PROJECT_DIR)/Builds";
+				INSTALL_PATH = /Lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64 arm64e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E90DD22396CDC60037C19F /* Build configuration list for PBXProject "AudioPluginCustomPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E90DDB2396CDC60037C19F /* Debug */,
+				67E90DDC2396CDC60037C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E90DDD2396CDC60037C19F /* Build configuration list for PBXNativeTarget "AudioPluginCustomPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E90DDE2396CDC60037C19F /* Debug */,
+				67E90DDF2396CDC60037C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E90E152396D4490037C19F /* Build configuration list for PBXNativeTarget "AudioPluginCustomPluginsLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E90E162396D4490037C19F /* Debug */,
+				67E90E172396D4490037C19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E90DCF2396CDC60037C19F /* Project object */;
+}

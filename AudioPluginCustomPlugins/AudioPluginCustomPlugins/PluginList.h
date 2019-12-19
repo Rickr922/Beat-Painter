@@ -1,0 +1,6 @@
+DECLARE_EFFECT("Flanger Custom Plugin", CustomFlanger)
+DECLARE_EFFECT("RingMod Custom Plugin", CustomRingMod)
+DECLARE_EFFECT("Delay Custom Plugin", CustomDelay)
+DECLARE_EFFECT("Mixer Custom Plugin", CustomMixer)
+DECLARE_EFFECT("LowPass Custom Plugin", CustomLowPass)
+DECLARE_EFFECT("HighPass Custom Plugin", CustomHighPass)
